@@ -42,6 +42,40 @@ A dual-channel system transmitting on the universal hydrogen emission frequency:
 
 See [hydrogen-line-beacon/README.md](hydrogen-line-beacon/README.md), [hydrogen-line-beacon/BUILD-GUIDE.md](hydrogen-line-beacon/BUILD-GUIDE.md), and [hydrogen-line-beacon/FOL-ARRAY.md](hydrogen-line-beacon/FOL-ARRAY.md)
 
+### 🔬 Active Discovery (APD Integration)
+
+**NEW:** Sequential hypothesis testing for RF anomaly detection.
+
+**Location:** `active-discovery/`
+
+An experimental module that combines the Hydrogen Line Beacon with **Active Protocol Discovery (APD)** — a statistical framework for detecting adaptive responses to structured RF probes.
+
+Instead of passively broadcasting a beacon, the Active Discovery system:
+- **Adaptively selects** optimal probe signals (KL-divergence maximization)
+- **Transmits** structured probes via HackRF One
+- **Listens** for responses via RTL-SDR
+- **Analyzes** responses for statistical anomalies
+- **Decides** using Wald Sequential Probability Ratio Test (SPRT)
+
+**Probe types:**
+- Hydrogen line pulses (1420 MHz)
+- Schumann-modulated carriers (7.83 Hz AM)
+- Frequency sweeps
+- Mathematical sequences (prime numbers, Fibonacci, golden ratio)
+- Silence (control)
+
+**Use cases:**
+- RF anomaly detection with statistical rigor
+- Active SETI experiments
+- Ionospheric probing
+- Adaptive radar waveform development
+
+**Scientific basis:** Sequential hypothesis testing (Wald SPRT) applied to radio-frequency anomaly detection. The system can detect weak adaptive responses orders of magnitude faster than passive approaches, with controlled Type I/II error rates (typically α=0.01, β=0.01).
+
+**Legal:** Requires amateur radio license for 1420 MHz. Can use ISM bands (433/868 MHz) without license.
+
+See [active-discovery/README.md](active-discovery/README.md) for full documentation, hardware requirements, and usage examples.
+
 ## Physical Phenomena
 
 ### Schumann Resonances
