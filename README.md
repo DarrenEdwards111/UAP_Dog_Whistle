@@ -8,6 +8,55 @@
 
 A collection of experimental signal processing and RF transmission tools focused on Earth's electromagnetic environment, particularly Schumann resonances and the hydrogen line.
 
+## Why Active Discovery? The Problem with Passive Listening
+
+For over 60 years, the Search for Extraterrestrial Intelligence (SETI) has relied on **passive observation** — pointing antennas at the sky and waiting for a signal. Despite scanning billions of frequencies across thousands of stars, this approach has produced no confirmed detections. The fundamental limitation isn't technological — it's epistemological.
+
+### The Silence Problem
+
+Passive listening can never distinguish between three possibilities:
+1. **Nothing is there** — no signals exist in the observed band
+2. **Wrong place/time/frequency** — signals exist but we're not looking where they are
+3. **Below detection threshold** — signals exist but are too weak to separate from noise
+
+After decades of silence, SETI cannot tell you which of these is true. Absence of evidence is not evidence of absence — and passive observation provides no mechanism to resolve this ambiguity.
+
+### The Active Alternative
+
+SHARD takes a fundamentally different approach: **active probing with sequential hypothesis testing**.
+
+| | Passive (SETI) | Active (SHARD) |
+|---|---|---|
+| **Method** | Listen and wait | Probe, listen, adapt |
+| **Signal** | Hope to receive | Transmit structured probes |
+| **Analysis** | Threshold detection | Sequential likelihood ratio |
+| **Adaptation** | None — fixed observation plan | KL-optimal probe selection |
+| **Conclusion from silence** | Nothing (ambiguous) | Confirmed null (H₀ accepted) |
+| **Statistical guarantee** | None | Controlled Type I/II error (α, β) |
+| **Speed** | Unlimited observation time | Up to 45× faster decision |
+| **Falsifiability** | Cannot falsify "something is there" | Can reject H₁ with known confidence |
+
+### How It Works
+
+Instead of passively monitoring, SHARD:
+
+1. **Transmits a structured probe** — hydrogen line pulses, Schumann-modulated signals, mathematical sequences
+2. **Listens for a response** — measures power spectral density, cross-correlation, anomalies
+3. **Computes a log-likelihood ratio** — how likely is this response under "adaptive responder" vs "background noise"?
+4. **Updates a sequential test (Wald SPRT)** — accumulates evidence across probes
+5. **Selects the next optimal probe** — KL-divergence maximisation ensures each probe is maximally informative
+6. **Decides when evidence is sufficient** — either "adaptive response detected" (reject H₀) or "confirmed null" (accept H₀), both with mathematically guaranteed error rates
+
+The key insight: **if something adaptive is out there, probing forces it to either respond (detectable) or not respond (also informative).** Either way, you learn something. Passive listening only learns from positive detections — which may never come.
+
+### Scientific Rigour
+
+SHARD doesn't claim to detect aliens. It provides a **statistically rigorous framework** for answering a specific question: "Is there an adaptive response to structured RF probes in this environment?" The answer is either yes (with confidence 1−α) or no (with confidence 1−β). No ambiguity, no hand-waving.
+
+This same framework applies equally to ionospheric research, radar development, and any domain where you need to detect weak adaptive signals in noise.
+
+---
+
 ## Projects
 
 ### 🌍 Electromechanical Signal System
