@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="shard-logo.jpg" alt="SHARD" width="400" />
+  <img src="https://raw.githubusercontent.com/DarrenEdwards111/SHARD/main/shard-logo.jpg" alt="SHARD" width="400" />
 </p>
 
 # SHARD
@@ -102,7 +102,7 @@ A dual-channel system transmitting on the universal hydrogen emission frequency:
 See [hydrogen-line-beacon/README.md](hydrogen-line-beacon/README.md), [hydrogen-line-beacon/BUILD-GUIDE.md](hydrogen-line-beacon/BUILD-GUIDE.md), and [hydrogen-line-beacon/FOL-ARRAY.md](hydrogen-line-beacon/FOL-ARRAY.md)
 
 <p align="center">
-  <img src="apd-logo.jpg" alt="Active Protocol Discovery" width="500" />
+  <img src="https://raw.githubusercontent.com/DarrenEdwards111/SHARD/main/apd-logo.jpg" alt="Active Protocol Discovery" width="500" />
 </p>
 
 ### 🔬 Active Discovery (APD Integration)
