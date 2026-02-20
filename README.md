@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="shard-logo.jpg" alt="SHARD" width="400" />
+</p>
+
 # SHARD
 ## Schumann Hydrogen Active RF Discovery
 
@@ -96,6 +100,10 @@ A dual-channel system transmitting on the universal hydrogen emission frequency:
 - Legal ISM band options (433/868 MHz) for testing
 
 See [hydrogen-line-beacon/README.md](hydrogen-line-beacon/README.md), [hydrogen-line-beacon/BUILD-GUIDE.md](hydrogen-line-beacon/BUILD-GUIDE.md), and [hydrogen-line-beacon/FOL-ARRAY.md](hydrogen-line-beacon/FOL-ARRAY.md)
+
+<p align="center">
+  <img src="apd-logo.jpg" alt="Active Protocol Discovery" width="500" />
+</p>
 
 ### 🔬 Active Discovery (APD Integration)
 
