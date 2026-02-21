@@ -79,7 +79,7 @@ A Raspberry Pi-based platform that:
 - Ground-coupled seismic transduction as an alternative to airborne acoustic transmission
 - RF amplitude modulation with ELF patterns
 
-See [electromechanical/README.md](electromechanical/README.md) and [electromechanical/THEORY.md](electromechanical/THEORY.md)
+See [electromechanical/README.md](https://github.com/DarrenEdwards111/SHARD/blob/main/electromechanical/README.md) and [electromechanical/THEORY.md](https://github.com/DarrenEdwards111/SHARD/blob/main/electromechanical/THEORY.md)
 
 ### 📡 Hydrogen Line Beacon
 
@@ -99,7 +99,7 @@ A dual-channel system transmitting on the universal hydrogen emission frequency:
 - Anomaly detection and EM monitoring
 - Legal ISM band options (433/868 MHz) for testing
 
-See [hydrogen-line-beacon/README.md](hydrogen-line-beacon/README.md), [hydrogen-line-beacon/BUILD-GUIDE.md](hydrogen-line-beacon/BUILD-GUIDE.md), and [hydrogen-line-beacon/FOL-ARRAY.md](hydrogen-line-beacon/FOL-ARRAY.md)
+See [hydrogen-line-beacon/README.md](https://github.com/DarrenEdwards111/SHARD/blob/main/hydrogen-line-beacon/README.md), [hydrogen-line-beacon/BUILD-GUIDE.md](https://github.com/DarrenEdwards111/SHARD/blob/main/hydrogen-line-beacon/BUILD-GUIDE.md), and [hydrogen-line-beacon/FOL-ARRAY.md](https://github.com/DarrenEdwards111/SHARD/blob/main/hydrogen-line-beacon/FOL-ARRAY.md)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/DarrenEdwards111/SHARD/main/apd-logo.jpg" alt="Active Protocol Discovery" width="500" />
@@ -137,7 +137,7 @@ Instead of passively broadcasting a beacon, the Active Discovery system:
 
 **Legal:** Requires amateur radio license for 1420 MHz. Can use ISM bands (433/868 MHz) without license.
 
-See [active-discovery/README.md](active-discovery/README.md) for full documentation, hardware requirements, and usage examples.
+See [active-discovery/README.md](https://github.com/DarrenEdwards111/SHARD/blob/main/active-discovery/README.md) for full documentation, hardware requirements, and usage examples.
 
 ## Physical Phenomena
 
