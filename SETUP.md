@@ -41,8 +41,8 @@ sudo apt-get install -y hackrf libhackrf-dev
 
 ```bash
 cd ~
-git clone https://github.com/DarrenEdwards111/UAP_Dog_Whistle.git
-cd UAP_Dog_Whistle
+git clone https://github.com/DarrenEdwards111/SHARD.git
+cd SHARD
 
 # Create virtual environment
 python3 -m venv venv
@@ -110,7 +110,7 @@ TPA3116D2 power → 12V DC supply
 ### Mechanical Channel Only
 
 ```bash
-cd ~/UAP_Dog_Whistle/hydrogen-line-beacon
+cd ~/SHARD/hydrogen-line-beacon
 source ../venv/bin/activate
 
 # 10-minute test
@@ -207,8 +207,8 @@ After=network.target
 [Service]
 Type=simple
 User=pi
-WorkingDirectory=/home/pi/UAP_Dog_Whistle/hydrogen-line-beacon
-ExecStart=/home/pi/UAP_Dog_Whistle/venv/bin/hlb --duration 0 --programme pulsed
+WorkingDirectory=/home/pi/SHARD/hydrogen-line-beacon
+ExecStart=/home/pi/SHARD/venv/bin/hlb --duration 0 --programme pulsed
 Restart=always
 RestartSec=10
 

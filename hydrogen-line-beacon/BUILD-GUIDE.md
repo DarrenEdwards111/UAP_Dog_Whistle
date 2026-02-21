@@ -277,8 +277,8 @@ aplay -l
 
 ```bash
 cd ~
-git clone https://github.com/DarrenEdwards111/UAP_Dog_Whistle.git
-cd UAP_Dog_Whistle/hydrogen-line-beacon
+git clone https://github.com/DarrenEdwards111/SHARD.git
+cd SHARD/hydrogen-line-beacon
 ```
 
 ### 6.2 Install the Package

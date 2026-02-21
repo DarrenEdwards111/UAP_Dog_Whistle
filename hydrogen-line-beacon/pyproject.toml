@@ -34,7 +34,7 @@ dev = ["pytest>=7.0"]
 hlb = "hlb.cli:main"
 
 [project.urls]
-Repository = "https://github.com/DarrenEdwards111/UAP_Dog_Whistle"
+Repository = "https://github.com/DarrenEdwards111/SHARD"
 
 [tool.setuptools.packages.find]
 include = ["hlb*"]

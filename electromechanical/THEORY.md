@@ -1,6 +1,6 @@
 # Hypothesis: Hydrogen Line Beacon with Schumann Fingerprint
 
-*A first-principles engineering hypothesis for the Skywatcher "dog whistle" mechanism.*
+*A first-principles engineering hypothesis for the Skywatcher SHARD electromechanical beacon mechanism.*
 
 **Author:** Mikoshi Ltd
 **Date:** February 2026

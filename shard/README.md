@@ -368,7 +368,7 @@ If no → H₀ (null)
 
 ## License
 
-Same as parent repository (MIT or Apache 2.0, depending on UAP_Dog_Whistle license).
+Same as parent repository (MIT or Apache 2.0, depending on SHARD license).
 
 ---
 

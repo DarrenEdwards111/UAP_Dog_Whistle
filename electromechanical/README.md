@@ -1,4 +1,4 @@
-# Electromechanical UAP Dog Whistle
+# SHARD Electromechanical RF Beacon
 
 A combined RF transmitter + mechanical transducer system driven by a Raspberry Pi 5. Two signal channels, two physical mediums.
 

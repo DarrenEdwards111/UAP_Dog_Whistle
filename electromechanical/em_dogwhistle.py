@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Electromechanical UAP Dog Whistle Controller
+SHARD Electromechanical RF Beacon Controller
 Drives two simultaneous channels from a Raspberry Pi 5:
   1. RF transmission via HackRF One (optional)
   2. Mechanical transduction via I2S DAC + bass shaker
@@ -208,7 +208,7 @@ class ElectromechanicalController:
         programme = self.args.programme
 
         print("=" * 60)
-        print("  ELECTROMECHANICAL UAP DOG WHISTLE")
+        print("  SHARD ELECTROMECHANICAL RF BEACON")
         print("=" * 60)
         print(f"  Duration:    {duration}s ({duration/60:.0f} min)")
         print(f"  Programme:   {programme}")
@@ -294,7 +294,7 @@ class ElectromechanicalController:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Electromechanical UAP Dog Whistle")
+    parser = argparse.ArgumentParser(description="SHARD Electromechanical RF Beacon")
     parser.add_argument("--rf", action="store_true", help="Enable RF channel (requires HackRF One)")
     parser.add_argument("--freq", type=float, default=433e6, help="RF carrier frequency in Hz (default: 433 MHz ISM)")
     parser.add_argument("--duration", type=int, default=3600, help="Duration in seconds (default: 3600)")
